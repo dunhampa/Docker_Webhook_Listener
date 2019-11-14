@@ -1,11 +1,11 @@
 # Docker_Webhook_Listener
 Python 3 and Flask to listen for webhooks
 
-
+Build docker image
 ```
 docker build -t pylistener .
 ```
-
+Run container
 ```
 docker run  -p 5000:5000 --name pylistener_run pylistener
 ```
@@ -18,5 +18,5 @@ Copy in json value of {"id" : "1123"}
 Or other to see responses from service
 
 
-Reference links:
+Based on reference link:
 https://www.herox.com/IARPAGFChallenge/forum/thread/2497?page=1#post-8920
