@@ -4,7 +4,7 @@ Flask==1.1.1
 isodate==0.6.0
 itsdangerous==1.1.0
 Jinja2==2.10.1
-lxml==4.4.1
+lxml==4.9.1
 MarkupSafe==1.1.1
 pkgconfig==1.5.1
 python3-saml==1.7.0
